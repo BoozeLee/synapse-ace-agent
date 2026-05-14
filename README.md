@@ -429,6 +429,26 @@ All transactions are verifiable on:
 - **Solana Explorer**: [solscan.io](https://solscan.io)
 - **Synapse Explorer**: [explorer.oobeprotocol.ai](https://explorer.oobeprotocol.ai)
 
+## 🖼️ Neumorphic Dashboard
+
+A modern, neumorphic web dashboard visualizes the agent's capabilities and includes an embedded demo recording.
+
+🌐 **View Live (GitHub Pages):** https://boozelee.github.io/synapse-ace-agent/
+
+Or open locally:
+```bash
+# From the project root:
+open dashboard/index.html
+```
+
+**Features of the dashboard:**
+- Soft neumorphic UI with subtle shadows and smooth interactions
+- Embedded asciinema player showing the full demo workflow
+- Lay-flat design with glassmorphism accents
+- Responsive layout for mobile and desktop
+
+---
+
 ## 🛠️ Development
 
 ### Build
