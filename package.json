@@ -1,0 +1,54 @@
+{
+  "name": "synapse-ace-autonomous-agent",
+  "version": "1.0.0",
+  "description": "Autonomous AI agent powered by Synapse Agent Protocol & Ace Data Cloud with x402 payments",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && esbuild src/index.ts --bundle --platform=node --target=node20 --outfile=dist/index.js",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src/**/*.ts --fix",
+    "typecheck": "tsc --noEmit",
+    "register": "tsx src/scripts/register-agent.ts",
+    "demo": "tsx demo.ts",
+    "demo:sim": "SIMULATION=true tsx demo.ts",
+    "test-workflow": "tsx src/scripts/test-workflow.ts"
+  },
+  "keywords": [
+    "synapse",
+    "ace-data-cloud",
+    "x402",
+    "autonomous-agent",
+    "solana",
+    "ai-agent",
+    "sap",
+    "oobe-protocol"
+  ],
+  "author": "Synapse-Ace Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "@oobe-protocol-labs/synapse-client-sdk": "^2.0.6",
+    "@oobe-protocol-labs/synapse-sap-sdk": "^0.9.3",
+    "@acedatacloud/sdk": "^2026.504.2",
+    "@acedatacloud/x402-client": "^2026.507.2",
+    "@solana/web3.js": "^1.90.0",
+    "@coral-xyz/anchor": "^0.30.0",
+    "zod": "^3.22.0",
+    "winston": "^3.11.0",
+    "dotenv": "^16.4.0",
+    "big-integer": "^1.6.51"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "esbuild": "^0.20.0",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
