@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Synapse-Ace Agent Dashboard</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://asciinema.org/a/688040.js" async></script>
+</head>
+<body>
+  <div class="container">
+    <header class="neumorph">
+      <h1>Synapse-Ace Autonomous Agent</h1>
+      <p class="subtitle">OOBE Protocol × Ace Data Cloud Bounty Submission</p>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="card neumorph">
+        <h2>What is this?</h2>
+        <p>
+          A fully autonomous TypeScript agent that discovers tools, executes multi-service AI workflows, and settles payments on-chain via x402 — all without human intervention.
+        </p>
+      </section>
+
+      <!-- Capabilities Grid -->
+      <section class="grid">
+        <div class="card neumorph">
+          <div class="icon">🧠</div>
+          <h3>SAP Registration</h3>
+          <p>One-time on-chain identity creation on Synapse Agent Protocol mainnet.</p>
+        </div>
+        <div class="card neumorph">
+          <div class="icon">🔍</div>
+          <h3>Tool Discovery</h3>
+          <p>Autonomously finds and catalogs available AI tools via SAP discovery.</p>
+        </div>
+        <div class="card neumorph">
+          <div class="icon">⚡</div>
+          <h3>Multi-Service Workflows</h3>
+          <p>Orchestrates OpenAI chat, Flux image generation, and SERP search in a single task.</p>
+        </div>
+        <div class="card neumorph">
+          <div class="icon">💳</div>
+          <h3>x402 Payments</h3>
+          <p>Automatic per-call settlement using AceDataCloud's x402 facilitator.</p>
+        </div>
+        <div class="card neumorph">
+          <div class="icon">🛡️</div>
+          <h3>Sentinel Validation</h3>
+          <p>Integrates Synapse Sentinel for attestations and quality scoring.</p>
+        </div>
+        <div class="card neumorph">
+          <div class="icon">💰</div>
+          <h3>Escrow Management</h3>
+          <p>SAP escrow account with automatic top-up and batch settlement.</p>
+        </div>
+      </section>
+
+      <!-- Live Demo -->
+      <section class="card neumorph">
+        <h2>Demo Walkthrough</h2>
+        <div class="demo-wrapper">
+          <asciinema-player src="../demo.cast" cols="100" rows="30" font-size="14" poster="github:npt" loop></asciinema-player>
+        </div>
+        <p class="note">Simulation mode (no real transactions). To run with real keys, see <code>QUICKSTART.md</code>.</p>
+      </section>
+
+      <!-- Quick Start -->
+      <section class="card neumorph">
+        <h2>Get Started</h2>
+        <ol>
+          <li>Clone the repository: <code>git clone https://github.com/BoozeLee/synapse-ace-agent.git</code></li>
+          <li>Install dependencies: <code>npm install</code></li>
+          <li>Copy <code>.env.example</code> to <code>.env</code> and add your API keys.</li>
+          <li>Register agent: <code>npm run register</code></li>
+          <li>Run demo: <code>npm run demo</code></li>
+        </ol>
+      </section>
+
+      <!-- Bounty Info -->
+      <section class="card neumorph">
+        <h2>Bounty Category</h2>
+        <p><strong>Ace Data Cloud Usage</strong> — The agent uses multiple AceDataCloud services (openai:chat, flux:image, serp:search) in a single autonomous workflow, with x402 payments and SAP attestations.</p>
+        <ul>
+          <li>✅ Multi-service orchestration</li>
+          <li>✅ Autonomous payment handling</li>
+          <li>✅ On-chain attestations via Sentinel</li>
+          <li>✅ SAP agent registration & escrow</li>
+        </ul>
+      </section>
+
+      <!-- Architecture -->
+      <section class="card neumorph">
+        <h2>Architecture</h2>
+        <pre class="code-block">
+┌─────────────────────────────────────────────────────────────┐
+│                    AceAutoAgent (Orchestrator)              │
+├──────────┬──────────┬──────────┬──────────┬────────────────┤
+│ SapService│AceDataCl│PaymentSe│ToolDisco│AttestationServ│
+│ (SAP)    │oudService│rvice    │veryServ│ice            │
+│          │(AI)      │(x402)   │(Discovery)│(Sentinel)   │
+└──────────┴──────────┴──────────┴──────────┴────────────────┘
+        </pre>
+      </section>
+
+      <!-- Links -->
+      <section class="card neumorph links">
+        <h2>Resources</h2>
+        <a href="https://www.oobeprotocol.ai" target="_blank" class="btn neumorph-btn">OOBE Protocol</a>
+        <a href="https://platform.acedata.cloud" target="_blank" class="btn neumorph-btn">AceDataCloud</a>
+        <a href="https://github.com/BoozeLee/synapse-ace-agent" target="_blank" class="btn neumorph-btn">GitHub Repo</a>
+        <a href="https://explorer.oobeprotocol.ai" target="_blank" class="btn neumorph-btn">SAP Explorer</a>
+      </section>
+
+      <footer class="neumorph">
+        <p>Built for the OOBE Protocol × Ace Data Cloud Bounty 2026</p>
+        <p>MIT License — Author: Synapse-Ace Contributors</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
