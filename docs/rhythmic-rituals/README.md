@@ -1,66 +1,41 @@
-# Rhythmic Rituals
+# Rhythmic Ritual ◉
 
-Rhythmic Rituals is a participatory party format where dance music, guided micro-rituals, live visuals, and AI-assisted storytelling create a night that feels intentional without becoming stiff or ceremonial.
+Rhythmic Ritual ◉ is an underground minimal techno event concept based in Belgium.
 
-The concept is built for club nights, art spaces, festivals, private salons, wellness-adjacent nightlife, and brand activations that want depth, movement, and social connection in one experience.
+Edition 01 is **ANIMAE**. In designed display typography, use **ANIMÆ** when the ligature is supported.
 
-## Core Promise
+The party is planned for **end August 2026**.
 
-Guests arrive as individuals and leave as a temporary tribe.
+Rights holders: **Kiliaan Vanvoorden** and **Paulien Biers**.
 
-The night is structured around a sequence of musical and social transitions: arrival, grounding, ignition, collective peak, integration, and afterglow. Each phase has a sound direction, lighting state, visual language, host cue, and social mechanic.
+## Voice
 
-## Format
+Ceremonial, minimal, dry wit, earned intimacy.
 
-- Duration: 4 to 7 hours
-- Capacity: 80 to 600 guests
-- Music: organic house, afro house, melodic techno, downtempo, tribal percussion, live vocals, and late-night bass pressure
-- Venue: club room, warehouse, chapel, botanical hall, beach structure, gallery, or hidden courtyard
-- Mood: embodied, magnetic, adult, artful, warm
+No hype language. No festival shouting. No wellness retreat posture.
 
-## Signature Elements
+## Crowd
 
-- Opening pulse: a low-pressure guided arrival that syncs the room without forcing participation
-- Token of entry: wrist thread, stamped card, temporary mark, or small object tied to the theme
-- Three ritual stations: intention, release, and connection
-- Live visual altar: projection or LED scene responding to the night phases
-- Circle without cringe: short collective cues embedded between DJ transitions
-- Peak rite: synchronized light, percussion, and movement cue at the main set turning point
-- Afterglow archive: generated recap, playlist, photo wall, and private community follow-up
+35-45. Underground veterans. Belgian/Dutch scene. People who do not need the room explained to them.
 
-## Audience
+## Music
 
-- Creative professionals
-- Conscious nightlife audiences
-- Festival side-stage communities
-- Music and art collectors
-- Wellness-curious people who still want a real party
-- Brands looking for a culturally credible experience
+Minimal techno, progressive, patient late-night pressure, Joris Biesmans lineage.
 
-## What Makes It Different
+## Edition 01
 
-Rhythmic Rituals is not a wellness workshop with background music, and it is not a regular club night with spiritual language pasted on top. The ritual layer is operational: it shapes the flow, social permission, visual system, and memory of the night.
+ANIMÆ carries the old animal memory without spelling it out.
 
-## Baker Street Labs Tooling
+The animal is not drawn. It is hidden in geometry, motion, stamps, and negative space.
 
-- Synapse Ace Agent: orchestrates AI service calls, research, generated copy, and visual prompts
-- TrendForge: tracks music, nightlife, wellness, and culture trends for each city
-- NeuroForge: models crowd energy phases and recommends transition timing
-- Terminal221B: local command center for show operations
-- Codex SuperLab: handles production checklist, task tracking, content pipeline, and reminders
-- Laboratory Templates: stores reusable sponsor, venue, artist, and ritual templates
-- Baker Street Laboratory: research and report generation for market positioning
-- HBS jazzyOS Finetune: business strategy, pricing, and partnership positioning
-- jazzyOS: experimental narrative layer for self-evolving show logic
-- Singularity Scripts: automation experiments for playlists, run-of-show generation, and recap workflows
-- Private Intel: stores sensitive venue, partner, and guest-list intelligence outside the public surface
+The old crowd recognises it. Everyone else just feels the door move.
 
-## Immediate MVP
+## Current Assets
 
-1. Build one flagship pilot night for 150 to 250 guests.
-2. Secure a visually strong venue with a flexible sound curfew.
-3. Book one resident DJ, one guest DJ, one percussionist, one movement host, and one visual operator.
-4. Create three ritual stations with low-friction participation.
-5. Capture photo, video, guest notes, playlist, and feedback.
-6. Convert the pilot into a repeatable city kit.
+- Agent prompt: `agent-prompt.md`
+- Pre-campaign command: `pre-campaign-command.md`
+- Website: `campaign/index.html`
+- Poster: `campaign/poster.html`
+- Merch: `campaign/merch.html`
+- Social kit: `campaign/social.html`
 

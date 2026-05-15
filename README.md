@@ -24,15 +24,16 @@ plane.
 - `/home/kilisan/trendforge-agent` - SAP/x402 trend research worker
 - `/home/kilisan/trendforge-agent/hello-fly` - Fly.io deployment scaffold
 - `/home/kilisan/neuroforge-agent` - neuromorphic SAP escrow-volume worker
-- `/home/kilisan/workspace/synapse-ace-agent/docs/rhythmic-rituals` - Rhythmic Rituals party concept
+- `/home/kilisan/workspace/synapse-ace-agent/docs/rhythmic-rituals` - Rhythmic Ritual party concept
 
 ## Hub Commands
 
 ```bash
 npm run ecosystem   # print the registered Baker Street Labs modules
 npm run menu        # open the terminal menu for tools and models
-npm run rituals     # show the Rhythmic Rituals concept package
+npm run rituals     # show the Rhythmic Ritual concept package
 npm run rituals:campaign  # list website, poster, merch, video, and social assets
+npm run rituals:prompt    # show the canonical Rhythmic Ritual agent prompt path
 npm run demo:sim    # run the existing Synapse/Ace simulation
 npm run register    # register the Synapse/Ace agent
 ```

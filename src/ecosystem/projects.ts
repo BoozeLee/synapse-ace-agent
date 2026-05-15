@@ -168,24 +168,26 @@ export const BAKER_STREET_PROJECTS: EcosystemProject[] = [
   },
   {
     id: 'rhythmic-rituals',
-    name: 'Rhythmic Rituals',
+    name: 'Rhythmic Ritual',
     localPath: '/home/kilisan/workspace/synapse-ace-agent/docs/rhythmic-rituals',
     domain: 'experience',
     runtime: 'docs',
-    role: 'Participatory ritual party concept combining dance music, guided micro-rituals, responsive visuals, AI-assisted storytelling, and nightlife operations.',
+    role: 'Belgian underground minimal techno event concept. Motherbrand Rhythmic Ritual ◉, Edition 01 ANIMÆ, end August 2026.',
     capabilities: [
       'event concept development',
       'run-of-show design',
-      'ritual station design',
+      'hidden bestiary identity system',
       'artist and sponsor brief generation',
-      'AI-assisted recap workflow',
-      'crowd energy phase mapping',
+      'merchandise capsule',
+      'social media kit',
+      'agent prompt governance',
     ],
     primaryCommands: [
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals',
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:campaign',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:prompt',
     ],
-    integrationNotes: 'Uses the full Baker Street Labs stack as research, automation, creative production, crowd modeling, and operational support for the party concept.',
+    integrationNotes: 'Uses the Baker Street Labs stack to prepare restrained campaign copy, merchandise, social content, and launch assets in the correct Rhythmic Ritual voice.',
   },
 ];
 

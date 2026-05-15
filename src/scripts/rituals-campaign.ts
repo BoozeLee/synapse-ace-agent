@@ -5,6 +5,8 @@ const campaign = `${root}/campaign`;
 const content = `${root}/content`;
 
 const files = [
+  ['Agent prompt', `${root}/agent-prompt.md`],
+  ['Pre-campaign command', `${root}/pre-campaign-command.md`],
   ['Website', `${campaign}/index.html`],
   ['Poster', `${campaign}/poster.html`],
   ['Merch mockups', `${campaign}/merch.html`],
@@ -16,8 +18,8 @@ const files = [
   ['Sponsor one-pager', `${content}/sponsor-one-pager.md`],
 ] as const;
 
-console.log('Rhythmic Rituals Campaign Kit');
-console.log('=============================');
+console.log('Rhythmic Ritual Campaign Kit');
+console.log('============================');
 console.log('');
 
 for (const [label, path] of files) {

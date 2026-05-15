@@ -1,66 +1,49 @@
-# Rhythmic Rituals Video Treatments
+# Rhythmic Ritual ◉ ANIMÆ Video Treatments
 
-## Teaser 01: The Threshold
+## Teaser 01: No Mascot
 
 Length: 15 seconds
 
-Purpose: intrigue and save-the-date.
+Purpose: signal the edition before explaining it.
 
 Shot list:
-- 0:00 hand touching a dark wall
-- 0:02 close-up of entry token
-- 0:04 percussion hit
-- 0:06 projection geometry on skin
-- 0:08 shoes entering the dance floor
-- 0:10 crowd silhouette, no clear faces
-- 0:12 title card: Rhythmic Rituals 001
-- 0:14 line: The room becomes the ritual
 
-Audio: sub pulse, single drum, breath texture, one rising synth.
+- 0:00 black door
+- 0:02 close-up of ◉ stamp
+- 0:04 abstract bestiary vector cuts across frame
+- 0:06 record sleeve edge
+- 0:08 older hands, no face
+- 0:10 floor detail at 03:17
+- 0:12 title: ANIMÆ
+- 0:14 line: Not a reunion. A continuation.
 
-## Teaser 02: The Invitation
+Audio: minimal kick, low room tone, one dry metallic gesture.
+
+## Teaser 02: End August
 
 Length: 30 seconds
 
-Purpose: explain the concept without overexplaining.
+Purpose: move from signal to date window.
 
 Structure:
-- 0:00 "A real party with an intentional arc."
-- 0:04 DJ and percussion fragments
-- 0:08 intention station
-- 0:12 connection prompt
-- 0:16 peak light cue
-- 0:22 afterglow wall
-- 0:26 ticket CTA
+
+- 0:00 Rhythmic Ritual ◉
+- 0:04 ANIMÆ
+- 0:08 Belgium
+- 0:12 End August 2026
+- 0:16 minimal techno / progressive pressure
+- 0:22 hidden vector mark
+- 0:26 no mascot / no cage / no lecture
 
 Voiceover:
-"You arrive as yourself. You enter through the threshold. The room warms, the floor opens, the signal rises. No forced ceremony. No passive audience. Just a dance floor with memory."
 
-## Recap Film
+"The word changed. The pulse did not. End August. Belgium. Rhythmic Ritual ◉ — ANIMÆ."
 
-Length: 60 to 90 seconds
+## Rules
 
-Purpose: sell the second edition and sponsors.
-
-Chapters:
-- Arrival
-- The Stations
-- The Floor
-- Peak Rite
-- Afterglow
-
-Required captures:
-- 10 crowd-safe wide shots
-- 8 detail shots of tokens, hands, fabric, lights
-- 5 artist shots
-- 3 station shots without exposing private written notes
-- 3 exit reactions
-- 1 clean sponsor integration shot per partner
-
-## Production Rules
-
-- Avoid intrusive flash.
-- Do not film written intention cards legibly without explicit permission.
-- Capture movement, texture, and atmosphere more than faces.
-- Keep edits tactile, warm, and credible. Avoid generic wellness stock-video energy.
+- No literal animals.
+- No crowd euphoria montage.
+- No influencer faces.
+- No fake mysticism.
+- Show hands, shoes, shadows, stamps, vectors, sleeves, doorways.
 

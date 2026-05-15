@@ -15,6 +15,7 @@
     "menu": "tsx src/scripts/menu.ts",
     "rituals": "tsx src/scripts/rituals.ts",
     "rituals:campaign": "tsx src/scripts/rituals-campaign.ts",
+    "rituals:prompt": "tsx src/scripts/rituals-prompt.ts",
     "demo": "tsx demo.ts",
     "demo:sim": "SIMULATION=true tsx demo.ts",
     "test-workflow": "tsx src/scripts/test-workflow.ts"

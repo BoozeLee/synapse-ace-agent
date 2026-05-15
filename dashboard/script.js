@@ -104,14 +104,15 @@ const projects = [
     commands: ['cargo run --bin neuroforge -- --demo', 'cargo run --bin register'],
   },
   {
-    name: 'Rhythmic Rituals',
+    name: 'Rhythmic Ritual',
     path: '/home/kilisan/workspace/synapse-ace-agent/docs/rhythmic-rituals',
     domain: 'experience',
     runtime: 'docs',
-    role: 'Participatory ritual party concept combining dance music, guided micro-rituals, responsive visuals, AI-assisted storytelling, and nightlife operations.',
+    role: 'Belgian underground minimal techno event concept. Motherbrand Rhythmic Ritual ◉, Edition 01 ANIMÆ, end August 2026.',
     commands: [
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals',
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:campaign',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:prompt',
     ],
   },
 ];

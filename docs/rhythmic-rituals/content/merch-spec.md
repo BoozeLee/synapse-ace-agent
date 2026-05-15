@@ -1,39 +1,42 @@
-# Rhythmic Rituals Merch Spec
+# Rhythmic Ritual ◉ ANIMÆ Merch Spec
 
 ## Capsule 001
 
-### Threshold Tee
+### ANIMÆ Tee
 
 - Black heavyweight blank
-- Front: small RR sigil, left chest
-- Back: phase map, "The room becomes the ritual"
-- Ink: bone white and ember
+- Front: small ◉, left chest
+- Back: hidden bestiary vector plus `ANIMÆ`
+- Ink: bone white and oxide red
 - Drop size: 50 to 100
+- Rule: no literal animal
 
-### Pulse Scarf
+### Stamp Scarf
 
-- Long textile strip
-- Used as entry token and wearable object
-- Copy: "The room becomes the ritual"
-- Colorways: ember, moss, night
+- Narrow textile strip
+- Used at entry and worn during the night
+- Copy: `THE ANIMALS LEFT. THE SOULS STAYED.`
+- Colorways: ash, amber, forest
 
-### Afterglow Print
+### Edition Print
 
 - A2 poster
-- Generated from anonymous guest intention fragments
-- Numbered edition
-- Sold only after the event
+- Typography-led
+- One hidden animal skeleton reduced into abstract vector geometry
+- Numbered edition after the event
 
-### Ritual Token
+### Door Token
 
-- Small ceramic, wood, or metal charm
-- Used at entry and kept as a memory object
-- Future use: membership marker or returning guest signal
+- Small metal or ceramic ◉ token
+- Used as entry object
+- Kept after the night
+- Dry note: proof of attendance, not proof of wisdom
 
-## Merch Principles
+## Production Rules
 
-- Avoid loud festival merch.
-- Make objects feel discovered, not advertised.
-- Favor texture, weight, and ritual use over novelty.
-- Every item should work inside the event, not only after it.
+- Avoid festival merch.
+- Avoid nostalgia merch.
+- Avoid cartoon animals.
+- Make every object useful inside the room first.
+- The old crowd gets the reference. Everyone else gets a good object.
 

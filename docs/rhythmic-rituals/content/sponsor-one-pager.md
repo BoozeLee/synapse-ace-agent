@@ -1,44 +1,45 @@
-# Rhythmic Rituals Sponsor One-Pager
+# Rhythmic Ritual ◉ ANIMÆ Sponsor One-Pager
 
 ## Offer
 
-Rhythmic Rituals is a high-intent nightlife and culture format combining music, art, wellness-adjacent ritual, and premium guest experience.
+Rhythmic Ritual ◉ — ANIMÆ is a restrained underground minimal techno event in Belgium, planned for end August 2026.
+
+It is not built for broad reach. It is built for the right room.
 
 ## Audience
 
-- Creative professionals
-- Electronic music audiences
-- Wellness-curious nightlife guests
-- Fashion, design, and art communities
-- International urban tastemakers
+- 35-45
+- Belgian/Dutch underground veterans
+- minimal techno and progressive listeners
+- scene-aware creative professionals
+- people who prefer a good door policy to a loud promise
 
 ## Sponsor Fit
 
-- Non-alcoholic drinks
-- Tea, cacao, adaptogenic drinks
-- Fragrance and incense
-- Boutique hotels and member clubs
-- Audio, projection, and lighting technology
-- Fashion, jewelry, textile, and object design
+- audio and listening equipment
+- vinyl, record shops, and music culture partners
+- clothing, textile, and object design
+- independent drinks with taste and restraint
+- photography, print, and design studios
+- small hospitality partners with a room worth protecting
 
 ## Integration Options
 
-- Ritual station partner
-- Afterglow archive partner
-- Entry token partner
-- Quiet corner or hydration partner
-- Visual altar partner
-- Recap film partner
+- door token partner
+- stamp scarf partner
+- edition print partner
+- after-note partner
+- listening corner partner
+- discreet bar or bottle partner
 
 ## Deliverables
 
-- On-site brand presence
-- Sponsored station or object
-- Social content inclusion
-- Recap film visibility
-- Guest feedback summary
-- Sponsor report within 7 days
+- restrained on-site presence
+- social inclusion where it belongs
+- object or print integration
+- post-event trace report
+- no forced cheerleading
 
 ## Positioning Line
 
-Support a cultural experience where music, memory, and community meet in a measurable live format.
+Support a room that does not need to shout your name to make people remember it.

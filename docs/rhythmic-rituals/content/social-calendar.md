@@ -1,55 +1,64 @@
-# Rhythmic Rituals Social Calendar
+# Rhythmic Ritual ◉ ANIMÆ Social Calendar
 
 ## Campaign Phases
 
 | Phase | Timing | Goal | Content |
 | --- | --- | --- | --- |
-| Signal | T-6 weeks | Create intrigue | Symbol, room texture, one-line manifesto |
-| Reveal | T-5 weeks | Explain the concept | Poster, date, venue mood, core promise |
-| Trust | T-4 weeks | Make it credible | Music direction, artist hints, ritual stations |
-| Heat | T-3 weeks | Sell tickets | Reel hooks, testimonials, capacity reminders |
-| Detail | T-2 weeks | Reduce friction | Arrival, dress energy, safety, schedule |
-| Final Pulse | T-1 week | Push commitment | Countdown, artist clip, secret venue reveal |
-| Afterglow | T+1 day | Extend memory | Recap, playlist, guest fragments, next invite |
+| Pre-signal | T-8 weeks | Prepare the room before it knows | ◉ mark, no event name, one hidden vector |
+| Signal | T-6 weeks | Let the old crowd smell it | Abstract bestiary fragment, no explanation |
+| Reveal | T-5 weeks | Name the edition | Rhythmic Ritual ◉ — ANIMÆ, end August 2026 |
+| Proof | T-4 weeks | Establish taste | Music lineage, minimal techno, progressive references |
+| Objects | T-3 weeks | Introduce merch | Stamp scarf, ANIMÆ tee, door token, edition print |
+| Address | T-1 week | Move from myth to logistics | Venue, running order, entry code |
+| After | T+1 day | Keep the trace | One photo, one line, no public oversharing |
 
 ## Post Concepts
 
 ### Manifesto Reel
 
-Hook: "This is not a party you attend. It is a room you enter."
+Hook: "Not a reunion. A continuation."
 
-Visuals: hand stamp, low hallway light, percussionist hands, floor close-ups, candle-like projection, bodies moving without faces dominating.
+Visuals: black door, low ceiling, stamp, record sleeve edge, abstract vector geometry, older hands, floor at 03:17.
 
-Caption: Rhythmic Rituals 001: The Threshold. Dance music, live percussion, micro-rituals, and an afterglow archive. Limited capacity.
+Caption: Rhythmic Ritual ◉ — ANIMÆ. End August 2026. Belgium. The animals left. The souls stayed.
 
-### Carousel: What Happens Inside
+### Carousel: The Name
 
-1. The Threshold
-2. The Intention Station
-3. The Connection Station
-4. The Peak Rite
-5. The Afterglow
+1. Rhythmic Ritual ◉
+2. Edition 01
+3. ANIMÆ
+4. No mascot
+5. Same pulse
+6. End August 2026
 
-Caption: The night has a shape. You choose how deeply you enter it.
+Caption: The word is new because the old one did its job.
 
-### Artist Direction Post
+### Music Direction Post
 
-Caption: Music first. Ritual second. The floor has to trust the sound before the room can become anything else.
+Caption: Minimal techno. Progressive pressure. Patient enough to be rude.
 
-### Sponsor-Friendly Post
+### Merch Post
 
-Caption: Rhythmic Rituals brings together music, art, wellness-adjacent culture, and high-intent nightlife audiences in one measurable live format.
+Caption: Objects from the night. Not souvenirs. Evidence with better fabric.
+
+### Rights / Credit Line
+
+Caption footer when needed: Rhythmic Ritual ◉ is held by Kiliaan Vanvoorden and Paulien Biers.
 
 ## Caption Bank
 
-- A ritual party for people who still want a real dance floor.
-- Come alone. Leave with a room in your memory.
-- The peak is not a drop. It is a shared signal.
-- Organic house, live percussion, responsive visuals, and a private afterglow archive.
-- No forced participation. No awkward ceremony. Just a night with a pulse and a purpose.
-- The room becomes the ritual.
+- Not a reunion. A continuation.
+- The animals left. The souls stayed.
+- No mascot. No cage. No lecture.
+- Same pulse. Fifteen years wiser.
+- Minimal, progressive, patient.
+- You have felt this before. Possibly before lunch.
+- The floor remembers what the flyer refuses to draw.
+- End August 2026. Belgium.
 
 ## Hashtag Set
 
-`#RhythmicRituals #TheThreshold #RitualParty #OrganicHouse #AfroHouse #MelodicHouse #NightlifeCulture #ConsciousNightlife #AmsterdamEvents #BrusselsEvents`
+Use lightly. Never let hashtags carry the tone.
+
+`#RhythmicRitual #ANIMAE #MinimalTechno #ProgressiveTechno #BelgianUnderground #BelgiumEvents`
 

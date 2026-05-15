@@ -1,46 +1,43 @@
-# Rhythmic Rituals Agent Stack
+# Rhythmic Ritual ◉ ANIMÆ Agent Stack
 
-This maps the Baker Street Labs tools and models to practical jobs for Rhythmic Rituals.
+This maps the Baker Street Labs tools to practical pre-campaign jobs for Rhythmic Ritual ◉ — ANIMÆ.
+
+## Brand Governance
+
+- Agent prompt: keeps the voice ceremonial, minimal, dry, and restrained.
+- Pre-campaign command: copy/paste setup for any agent before generating campaign assets.
 
 ## Research And Positioning
 
-- Baker Street Laboratory: produces market reports for cities, venues, audience segments, and comparable parties.
-- TrendForge Agent: monitors emerging nightlife, music, wellness, fashion, and visual trends.
-- HBS jazzyOS Finetune: frames pricing, partnerships, sponsor decks, and expansion strategy.
+- Baker Street Laboratory: produces short market notes for Belgian/Dutch underground positioning.
+- TrendForge Agent: monitors minimal techno, progressive, club culture, and older-scene signals without turning them into trend bait.
+- HBS jazzyOS Finetune: frames pricing, partnerships, and sponsor logic.
 
 ## Creative Production
 
-- Synapse Ace Agent: generates event copy, visual prompts, guest emails, artist briefs, recap text, and SAP/Ace workflow demos.
-- Laboratory Templates: stores repeatable briefs for venues, sponsors, DJs, photographers, and ritual hosts.
-- jazzyOS: experimental show-logic layer for phase transitions and symbolic narrative.
-- Singularity Scripts: automation experiments for run-of-show variants and recap generation.
+- Synapse Ace Agent: generates controlled copy drafts, visual prompts, caption variants, and merchandise language.
+- Laboratory Templates: stores reusable briefs for poster, merch, line-up, sponsor, and social assets.
+- jazzyOS: experimental show-logic layer for hidden bestiary geometry and edition systems.
+- Singularity Scripts: automation experiments for run-of-show variants and post-event trace generation.
 
 ## Operations
 
-- Terminal221B: local operator console for show control notes, Solana experiments, and RAG-backed production memory.
-- Codex SuperLab: production checklist, reminders, Discord/Gmail/Sheets automation, and content pipeline.
-- NeuroForge Agent: models crowd-energy states and recommends when to shift phases.
+- Terminal221B: local operator console for production memory.
+- Codex SuperLab: pre-campaign checklist, reminders, content calendar, and task tracking.
+- NeuroForge Agent: models room pressure and phase timing.
 
-## Privacy And Intelligence
+## Privacy
 
-- Bakery Street Private Intel: stores sensitive venue contacts, partner intel, guest-list details, sponsor pricing, and negotiation notes.
+- Bakery Street Private Intel: stores venue contacts, guest-list details, sponsor numbers, and negotiation notes outside the public surface.
 
-## Deployment
+## Output Checklist
 
-- TrendForge Hello Fly: deployable proof-of-concept scaffold for public RSVP or status pages.
-
-## Model Outputs To Generate
-
-- City-specific concept memo
-- Venue shortlist
-- Artist/DJ booking brief
-- Sponsor one-pager
-- Ticket page copy
-- Ritual station instructions
-- Visual prompt pack
-- Lighting cue sheet
-- Safety and consent policy
-- Afterglow email
-- Recap report
-- Next-event recommendation
+- campaign website copy
+- poster copy
+- merchandise capsule
+- social media kit
+- hidden bestiary visual directions
+- caption bank
+- manifesto fragments
+- end-August 2026 launch timeline
 
