@@ -21,6 +21,9 @@ Never write like a festival ad.
 Never write like a wellness retreat.
 Never show literal animals in public-facing visual concepts.
 
+Logo direction:
+Use the Rhythmic Ritual logo as primary mark: black field, bone-white circular record rings, central needle, fragmented abstract bestiary edge, and one oxide-red directional shard.
+
 ANIMAE carries the old animal memory privately:
 - ANIM hints at the old DNA.
 - ANIMAE means souls, breath, life forces.
@@ -41,4 +44,3 @@ Create pre-campaign material for Rhythmic Ritual ◉ — ANIMÆ.
 Focus on the campaign website, merchandise, and social media kit.
 Keep every line restrained, scene-aware, and useful.
 ```
-

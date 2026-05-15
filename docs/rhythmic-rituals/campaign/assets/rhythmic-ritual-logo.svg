@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rhythmic Ritual logo</title>
+  <desc id="desc">Circular record-like mark with fragmented abstract animal geometry, central needle and red directional shard.</desc>
+  <rect width="900" height="900" fill="#111111"/>
+  <g transform="translate(450 342)">
+    <g fill="#f4efe6">
+      <path d="M-243-108l32-42 18 35 50-62 19 47 73-70-4 74 36-21-20 49 75-38-22 52 112-12-78 39 60 18-84 23 87 45-94 1 68 59-91-25 34 77-72-57-2 93-48-78-47 72 3-89-78 46 37-80-91 17 72-53-92-9 84-36-80-33 89-15-60-63z"/>
+      <path d="M-223 88l-36-8 68 94 1-66 31 75 18-49-5-88z"/>
+      <path d="M203-115l36-42 99-20-74 89-4 53-38-20-38 41z"/>
+      <path d="M242 25l72-32-19 46 49 16-63 19 50 57-77-25-1 65-35-70z"/>
+      <path d="M-30 201l41 74 45-88 45 42 17-92-64 32-10-88-45 70-41-72-10 92-65-25 30 84z"/>
+    </g>
+    <path d="M154-103l155-33-14 127-52-45-62 64 13-72z" fill="#a9342f"/>
+    <g fill="none" stroke="#f4efe6" stroke-width="8" stroke-linecap="round">
+      <circle r="188"/>
+      <circle r="158"/>
+      <circle r="128"/>
+      <circle r="98"/>
+    </g>
+    <g fill="#111111">
+      <circle r="51"/>
+      <path d="M0-170l24 167-24 170-24-170z"/>
+      <circle r="17"/>
+    </g>
+  </g>
+  <g fill="#f4efe6" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" letter-spacing="22" font-weight="800">
+    <text x="450" y="730" font-size="66">RHYTHMIC</text>
+    <text x="450" y="805" font-size="68">RITUAL</text>
+  </g>
+</svg>

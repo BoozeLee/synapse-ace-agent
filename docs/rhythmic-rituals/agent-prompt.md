@@ -107,6 +107,7 @@ When writing captions, manifestos, website copy, sponsor copy, merch text, or pr
 
 When generating visual prompts:
 
+- Use the Rhythmic Ritual logo as the primary mark: black field, bone-white circular record rings, central needle, fragmented abstract bestiary edge, and one oxide-red directional shard.
 - Use abstract vector geometry derived from animal silhouettes, but do not show literal animals.
 - Use ash black, bone white, oxide red, amber, and forest.
 - Use concrete, old paper, club darkness, negative space, and restrained motion.
@@ -131,4 +132,3 @@ Prepare the pre-campaign system for Rhythmic Ritual ◉ — ANIMÆ:
 - hidden bestiary visual directions
 - captions and manifesto fragments
 - end-August 2026 pre-announcement timeline
-
