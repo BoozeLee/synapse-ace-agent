@@ -1,0 +1,464 @@
+:root {
+  --ink: #151313;
+  --bone: #f4efe6;
+  --paper: #fff9ed;
+  --ember: #d15b2f;
+  --gold: #c9983d;
+  --moss: #305c4f;
+  --night: #171c27;
+  --blue: #243b64;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bone);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  padding: 22px 0;
+}
+
+nav div {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  color: rgba(21, 19, 19, 0.68);
+  font-size: 0.92rem;
+}
+
+.brand {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero,
+.page-header,
+main {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.hero {
+  min-height: 100vh;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.96fr) minmax(320px, 0.78fr);
+  gap: 54px;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  padding-bottom: 32px;
+}
+
+.eyebrow {
+  color: var(--ember);
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: clamp(3.2rem, 8vw, 7.6rem);
+  line-height: 0.92;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  line-height: 1;
+}
+
+.hero-copy > p:not(.eyebrow) {
+  max-width: 660px;
+  color: rgba(21, 19, 19, 0.74);
+  font-size: 1.18rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  border: 1px solid var(--ink);
+  font-weight: 800;
+}
+
+.button.primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.signal {
+  min-height: 560px;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 55% 45%, rgba(209, 91, 47, 0.9), transparent 0 12%, rgba(201, 152, 61, 0.7) 13%, transparent 24%),
+    linear-gradient(145deg, var(--night), var(--blue) 52%, var(--moss));
+  overflow: hidden;
+}
+
+.sigil {
+  position: relative;
+  width: min(70vw, 360px);
+  aspect-ratio: 1;
+  border: 2px solid rgba(244, 239, 230, 0.78);
+  border-radius: 50%;
+}
+
+.sigil span {
+  position: absolute;
+  inset: 14%;
+  border: 1px solid rgba(244, 239, 230, 0.58);
+  transform: rotate(30deg);
+}
+
+.sigil span:nth-child(2) {
+  inset: 28%;
+  transform: rotate(-22deg);
+  border-color: rgba(201, 152, 61, 0.8);
+}
+
+.sigil span:nth-child(3) {
+  inset: 43%;
+  background: var(--paper);
+  border: 0;
+  border-radius: 50%;
+}
+
+.phase-strip,
+.ticket-grid,
+.merch-grid,
+.social-layout {
+  display: grid;
+  gap: 12px;
+}
+
+.phase-strip {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 24px 0 72px;
+}
+
+.phase-strip article,
+.tickets,
+.program,
+.merch-card,
+.post-card,
+.split {
+  background: var(--paper);
+  border: 1px solid rgba(21, 19, 19, 0.16);
+}
+
+.phase-strip article {
+  min-height: 220px;
+  padding: 18px;
+}
+
+.phase-strip span,
+.program-row span,
+.post-card span {
+  color: var(--ember);
+  font-weight: 900;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 0.78fr) minmax(320px, 1fr);
+  gap: 48px;
+  padding: 34px;
+  margin-bottom: 72px;
+}
+
+.split p,
+.split li,
+.program-row p,
+.tickets p,
+.merch-card p,
+.post-card p {
+  color: rgba(21, 19, 19, 0.72);
+}
+
+.program {
+  padding: 28px;
+  margin-bottom: 72px;
+}
+
+.program-row {
+  display: grid;
+  grid-template-columns: 90px 170px minmax(0, 1fr);
+  gap: 18px;
+  padding: 18px 0;
+  border-top: 1px solid rgba(21, 19, 19, 0.12);
+}
+
+.program-row p {
+  margin-bottom: 0;
+}
+
+.tickets {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+  gap: 24px;
+  padding: 34px;
+  margin-bottom: 72px;
+}
+
+.ticket-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ticket-grid article {
+  min-height: 150px;
+  padding: 18px;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.ticket-grid strong {
+  display: block;
+  margin-top: 40px;
+  font-size: 3rem;
+}
+
+.ticket-grid strong::before {
+  content: "EUR ";
+  font-size: 0.8rem;
+}
+
+.page-header {
+  padding-bottom: 32px;
+}
+
+.page-header h1 {
+  margin-top: 80px;
+}
+
+.poster-body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #2a1714;
+}
+
+.poster-sheet {
+  width: min(820px, 100%);
+  aspect-ratio: 2 / 3;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background: var(--paper);
+  border: 14px solid var(--ink);
+}
+
+.poster-art {
+  position: relative;
+  min-height: 0;
+  background:
+    radial-gradient(circle at center, var(--gold), transparent 0 9%, rgba(209, 91, 47, 0.78) 10%, transparent 23%),
+    linear-gradient(160deg, var(--night), #442119 50%, var(--moss));
+  overflow: hidden;
+}
+
+.orbit {
+  position: absolute;
+  inset: 14%;
+  border: 2px solid rgba(255, 249, 237, 0.62);
+  border-radius: 50%;
+}
+
+.orbit.two {
+  inset: 28%;
+  border-color: rgba(201, 152, 61, 0.82);
+  transform: rotate(20deg);
+}
+
+.poster-mark {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--paper);
+  font-size: clamp(5rem, 20vw, 12rem);
+  font-weight: 950;
+}
+
+.poster-copy {
+  padding: 34px;
+}
+
+.poster-copy h1 {
+  font-size: clamp(3.4rem, 9vw, 6.8rem);
+}
+
+.poster-copy h2 {
+  font-size: clamp(1.2rem, 3vw, 2rem);
+}
+
+.poster-details {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.poster-details span {
+  padding: 7px 10px;
+  border: 1px solid rgba(21, 19, 19, 0.24);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.poster-note {
+  margin: 24px 0 0;
+  color: rgba(21, 19, 19, 0.7);
+}
+
+.merch-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding-bottom: 72px;
+}
+
+.merch-card {
+  padding: 18px;
+}
+
+.mock {
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.shirt-mock {
+  clip-path: polygon(24% 10%, 38% 0, 62% 0, 76% 10%, 94% 28%, 82% 42%, 74% 34%, 74% 100%, 26% 100%, 26% 34%, 18% 42%, 6% 28%);
+}
+
+.shirt-mock span,
+.print-mock span {
+  font-size: 4rem;
+  font-weight: 950;
+}
+
+.scarf-mock {
+  min-height: 120px;
+  margin-top: 100px;
+  background: var(--ember);
+  transform: rotate(-8deg);
+  font-weight: 900;
+  text-align: center;
+}
+
+.print-mock {
+  background:
+    radial-gradient(circle, var(--gold), transparent 0 10%, var(--ember) 11%, transparent 28%),
+    var(--night);
+}
+
+.object-mock span {
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: inset 0 0 0 18px #8b6624, inset 0 0 0 21px var(--paper);
+}
+
+.social-layout {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-bottom: 72px;
+}
+
+.post-card {
+  min-height: 260px;
+  padding: 22px;
+}
+
+.post-card.tall {
+  grid-row: span 2;
+  min-height: 532px;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.post-card.tall p {
+  color: rgba(255, 249, 237, 0.72);
+}
+
+@media print {
+  body.poster-body {
+    padding: 0;
+  }
+
+  .poster-sheet {
+    width: 100vw;
+    min-height: 100vh;
+    border: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .split,
+  .tickets {
+    grid-template-columns: 1fr;
+  }
+
+  .phase-strip,
+  .merch-grid,
+  .social-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .program-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .phase-strip,
+  .merch-grid,
+  .social-layout,
+  .ticket-grid {
+    grid-template-columns: 1fr;
+  }
+}

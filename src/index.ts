@@ -1,5 +1,6 @@
 // Main entry point for the Synapse-Ace Autonomous Agent
 export * from './types';
+export * from './ecosystem/projects';
 export * from './utils/logger';
 export { AceAutoAgent } from './agent/AceAutoAgent';
 export { ConfigManager } from './utils/config';

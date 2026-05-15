@@ -1,4 +1,47 @@
-# Synapse-Ace Autonomous Agent
+# Baker Street Labs Synapse Hub
+
+This repository is now the local hub for the larger Baker Street Labs app. It keeps
+the existing Synapse/Ace autonomous agent intact, and adds a typed ecosystem registry
+plus a dashboard that links the Baker Street Laboratory repos, SAP/x402 agents,
+automation systems, model-training projects, and deployment scaffolds.
+
+The source repos are not flattened into one directory. They remain independent modules
+with their own histories, dependencies, and secrets, while this app acts as the control
+plane.
+
+## Registered Modules
+
+- `/home/kilisan/workspace/synapse-ace-agent` - hub app, SAP/Ace workflows, x402 payments
+- `/home/kilisan/bakerstreet-labs-repos/baker-street-laboratory` - original research platform
+- `/home/kilisan/bakerstreet-labs-repos/Laboratory-Templates` - premium workflow templates
+- `/home/kilisan/bakerstreet-labs-repos/Bakery-Street-Private-Intel` - private intelligence workspace
+- `/home/kilisan/bakerstreet-labs-repos/jazzyOS` - experimental OS/runtime layer
+- `/home/kilisan/bakerstreet-labs-repos/hbs-jazzyos-finetune` - business-intelligence fine-tuning
+- `/home/kilisan/bakerstreet-labs-repos/singularity-scripts` - self-improving automation scripts
+- `/home/kilisan/bakerstreet-labs-repos/terminal221b` - local-first AI/Solana command center
+- `/home/kilisan/bakerstreet-labs-repos/codex-superlab` - progress tracking and automation
+- `/home/kilisan/bakerstreet-labs-repos/Baker-Street-Laboratory-1` - expanded API/Flutter lab
+- `/home/kilisan/trendforge-agent` - SAP/x402 trend research worker
+- `/home/kilisan/trendforge-agent/hello-fly` - Fly.io deployment scaffold
+- `/home/kilisan/neuroforge-agent` - neuromorphic SAP escrow-volume worker
+- `/home/kilisan/workspace/synapse-ace-agent/docs/rhythmic-rituals` - Rhythmic Rituals party concept
+
+## Hub Commands
+
+```bash
+npm run ecosystem   # print the registered Baker Street Labs modules
+npm run menu        # open the terminal menu for tools and models
+npm run rituals     # show the Rhythmic Rituals concept package
+npm run rituals:campaign  # list website, poster, merch, video, and social assets
+npm run demo:sim    # run the existing Synapse/Ace simulation
+npm run register    # register the Synapse/Ace agent
+```
+
+Open `dashboard/index.html` in a browser to view the combined local command center.
+
+---
+
+# Original Synapse-Ace Autonomous Agent
 
 > **Autonomous AI Agent for Solana** — Powered by Synapse Agent Protocol & Ace Data Cloud with x402 Payments
 
