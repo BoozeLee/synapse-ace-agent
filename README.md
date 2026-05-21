@@ -34,6 +34,12 @@ npm run menu        # open the terminal menu for tools and models
 npm run rituals     # show the Rhythmic Ritual concept package
 npm run rituals:campaign  # list website, poster, merch, video, and social assets
 npm run rituals:prompt    # show the canonical Rhythmic Ritual agent prompt path
+npm run rituals:budget    # calculate first-edition door and bar-share scenarios
+npm run rituals:launch-plan  # show the pre-campaign operating files
+npm run rituals:assets    # show asset files and next outputs
+npm run rituals:poster    # show poster brief and page
+npm run rituals:social    # show social rollout and kit
+npm run rituals:merch     # show merch production and mockups
 npm run demo:sim    # run the existing Synapse/Ace simulation
 npm run register    # register the Synapse/Ace agent
 ```

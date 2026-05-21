@@ -16,6 +16,12 @@
     "rituals": "tsx src/scripts/rituals.ts",
     "rituals:campaign": "tsx src/scripts/rituals-campaign.ts",
     "rituals:prompt": "tsx src/scripts/rituals-prompt.ts",
+    "rituals:budget": "tsx src/scripts/rituals-budget.ts",
+    "rituals:launch-plan": "tsx src/scripts/rituals-file-command.ts launch-plan",
+    "rituals:assets": "tsx src/scripts/rituals-file-command.ts assets",
+    "rituals:poster": "tsx src/scripts/rituals-file-command.ts poster",
+    "rituals:social": "tsx src/scripts/rituals-file-command.ts social",
+    "rituals:merch": "tsx src/scripts/rituals-file-command.ts merch",
     "demo": "tsx demo.ts",
     "demo:sim": "SIMULATION=true tsx demo.ts",
     "test-workflow": "tsx src/scripts/test-workflow.ts"

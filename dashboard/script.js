@@ -113,6 +113,12 @@ const projects = [
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals',
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:campaign',
       'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:prompt',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:budget',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:launch-plan',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:assets',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:poster',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:social',
+      'npm --prefix /home/kilisan/workspace/synapse-ace-agent run rituals:merch',
     ],
   },
 ];

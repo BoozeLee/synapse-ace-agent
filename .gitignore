@@ -9,3 +9,5 @@ logs/
 .DS_Store
 coverage/
 *.tsbuildinfo
+docs/rhythmic-rituals/
+src/scripts/rituals-*.ts
