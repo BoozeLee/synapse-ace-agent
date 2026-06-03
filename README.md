@@ -1,584 +1,88 @@
-# Baker Street Labs Synapse Hub
+# Synapse ACE Agent
 
-This repository is now the local hub for the larger Baker Street Labs app. It keeps
-the existing Synapse/Ace autonomous agent intact, and adds a typed ecosystem registry
-plus a dashboard that links the Baker Street Laboratory repos, SAP/x402 agents,
-automation systems, model-training projects, and deployment scaffolds.
+An autonomous TypeScript agent prototype for composing Synapse Agent Protocol discovery, Ace Data Cloud services, x402 payments, and Solana-oriented workflow orchestration.
 
-The source repos are not flattened into one directory. They remain independent modules
-with their own histories, dependencies, and secrets, while this app acts as the control
-plane.
+The repository is public as a portfolio project: it shows typed service boundaries, payment-aware agent design, workflow execution, and a small command-line control surface for experiments.
 
-## Registered Modules
+## What It Demonstrates
 
-- `/home/kilisan/workspace/synapse-ace-agent` - hub app, SAP/Ace workflows, x402 payments
-- `/home/kilisan/bakerstreet-labs-repos/baker-street-laboratory` - original research platform
-- `/home/kilisan/bakerstreet-labs-repos/Laboratory-Templates` - premium workflow templates
-- `/home/kilisan/bakerstreet-labs-repos/Bakery-Street-Private-Intel` - private intelligence workspace
-- `/home/kilisan/bakerstreet-labs-repos/jazzyOS` - experimental OS/runtime layer
-- `/home/kilisan/bakerstreet-labs-repos/hbs-jazzyos-finetune` - business-intelligence fine-tuning
-- `/home/kilisan/bakerstreet-labs-repos/singularity-scripts` - self-improving automation scripts
-- `/home/kilisan/bakerstreet-labs-repos/terminal221b` - local-first AI/Solana command center
-- `/home/kilisan/bakerstreet-labs-repos/codex-superlab` - progress tracking and automation
-- `/home/kilisan/bakerstreet-labs-repos/Baker-Street-Laboratory-1` - expanded API/Flutter lab
-- `/home/kilisan/trendforge-agent` - SAP/x402 trend research worker
-- `/home/kilisan/trendforge-agent/hello-fly` - Fly.io deployment scaffold
-- `/home/kilisan/neuroforge-agent` - neuromorphic SAP escrow-volume worker
-- `/home/kilisan/workspace/synapse-ace-agent/docs/rhythmic-rituals` - Rhythmic Ritual party concept
+- Multi-service AI agent orchestration in TypeScript.
+- Synapse Agent Protocol discovery and registration flows.
+- Ace Data Cloud service integration with x402 payment concepts.
+- Solana SDK usage for payment and agent workflows.
+- Typed configuration, logging, and command scripts for repeatable demos.
 
-## Hub Commands
+## Stack
+
+- **Runtime:** Node.js 20+, TypeScript
+- **Execution:** `tsx`, `esbuild`
+- **Agent services:** Synapse SDKs, Ace Data Cloud SDK, x402 client
+- **Blockchain:** Solana Web3.js, Anchor
+- **Validation:** TypeScript compiler, ESLint
+
+## Project Structure
+
+```text
+src/
+├── agent/                 # Agent registry and autonomous agent entry points
+├── attestation/           # Attestation service
+├── ecosystem/             # Project registry and ecosystem metadata
+├── scripts/               # CLI helpers and demos
+├── services/              # SAP, Ace Data Cloud, payment, tool discovery services
+├── types/                 # Shared TypeScript types
+├── utils/                 # Config and logging helpers
+└── workflow/              # Workflow engine
+```
+
+## Local Development
 
 ```bash
-npm run ecosystem   # print the registered Baker Street Labs modules
-npm run menu        # open the terminal menu for tools and models
-npm run rituals     # show the Rhythmic Ritual concept package
-npm run rituals:campaign  # list website, poster, merch, video, and social assets
-npm run rituals:prompt    # show the canonical Rhythmic Ritual agent prompt path
-npm run rituals:budget    # calculate first-edition door and bar-share scenarios
-npm run rituals:launch-plan  # show the pre-campaign operating files
-npm run rituals:assets    # show asset files and next outputs
-npm run rituals:poster    # show poster brief and page
-npm run rituals:social    # show social rollout and kit
-npm run rituals:merch     # show merch production and mockups
-npm run demo:sim    # run the existing Synapse/Ace simulation
-npm run register    # register the Synapse/Ace agent
-```
-
-Open `dashboard/index.html` in a browser to view the combined local command center.
-
----
-
-# Original Synapse-Ace Autonomous Agent
-
-> **Autonomous AI Agent for Solana** — Powered by Synapse Agent Protocol & Ace Data Cloud with x402 Payments
-
-This agent participates in the **OOBE Protocol × Ace Data Cloud Bounty** by building a complete end-to-end autonomous workflow that:
-
-- **Discovers** tools via Synapse Agent Protocol (SAP)
-- **Executes** tasks using Ace Data Cloud AI services
-- **Settles** payments using x402 payment workflows (Solana escrow + AceDataCloud facilitator)
-
-## 🎯 Bounty Categories
-
-This agent qualifies for **BOTH** categories:
-
-### Category A: General Payment Volume on SAP (On-chain Escrow)
-- Uses Synapse RPC for on-chain escrow management
-- Agents generate payment volume through SAP's escrow system
-- Includes Synapse Sentinel agent services
-
-### Category B: Ace Data Cloud Usage (x402 Facilitator)
-- Uses `@acedatacloud/x402-client` with AceDataCloud's facilitator
-- Consumes 3+ distinct Ace Data Cloud services (OpenAI, Flux, Google SERP, etc.)
-- Fully autonomous end-to-end execution
-
-## ✨ Features
-
-### 🔍 **Intelligent Tool Discovery**
-- Automatic scanning of SAP network for available tools
-- Caches and indexes agent capabilities
-- Discovers Synapse Sentinel and other service agents
-
-### 🤖 **AI-Powered Workflow Orchestration**
-- Natural language request parsing
-- Multi-step task planning
-- Dynamic service composition
-
-### 💸 **Automated x402 Payments**
-- Solana escrow management via SAP SDK
-- On-chain USDC settlements via AceDataCloud facilitator
-- Payment routing and verification
-
-### 🧠 **Synapse Sentinel Integration**
-- Agent health monitoring
-- Response validation
-- Attestation generation
-
-### 📊 **Comprehensive Logging**
-- Winston-based structured logging
-- Transaction tracking
-- Cost monitoring
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    User Request                          │
-│    "Generate content about Solana DeFi and create       │
-│     an image illustrating the ecosystem"                 │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│            Agent Discovery & Planning Layer              │
-│  • Parses request into task list                         │
-│  • Identifies required services                          │
-│  • Estimates costs                                       │
-│  • Creates workflow plan                                 │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│           Tool Discovery via SAP Protocol                │
-│  • Query agents by capability                            │
-│  • Fetch Synapse Sentinel tools                          │
-│  • Resolve pricing tiers                                 │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│          Ace Data Cloud Service Execution                │
-│  ├─ OpenAI Chat: Research & content generation           │
-│  ├─ Flux Image: Create illustrative image                │
-│  ├─ Google SERP: Fetch latest DeFi news                  │
-│  └─ **All calls automated with x402 payments**           │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│          Payment Settlement via x402                      │
-│  ├─ SAP Escrow: Pre-fund SOL escrow                      │
-│  ├─ AceDataCloud Facilitator: On-chain USDC settlement   │
-│  ├─ Batch settlement optimization                        │
-│  └─ Receipt generation                                   │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│               Attestation & Reporting                     │
-│  • Generate Synapse Sentinel attestations                │
-│  • Update agent reputation                               │
-│  • Log transaction history                               │
-│  • Report metrics to SAP                                 │
-└─────────────────────────────────────────────────────────┘
-```
-
-## 📁 Project Structure
-
-```
-synapse-ace-autonomous-agent/
-├── src/
-│   ├── agent/
-│   │   ├── AceAutoAgent.ts        # Main agent class
-│   │   ├── AgentConfig.ts         # Configuration management
-│   │   └── AgentRegistry.ts       # SAP agent registration
-│   ├── services/
-│   │   ├── AceDataCloudService.ts # AceDataCloud API wrapper
-│   │   ├── SapService.ts          # SAP protocol interface
-│   │   ├── PaymentService.ts      # x402 payment handler
-│   │   └── SentinelService.ts     # Synapse Sentinel integration
-│   ├── discovery/
-│   │   ├── ToolDiscovery.ts       # SAP tool discovery
-│   │   ├── CapabilityIndex.ts     # Cached capability index
-│   │   └── AgentDiscovery.ts      # Agent lookup & scoring
-│   ├── workflow/
-│   │   ├── WorkflowEngine.ts      # Multi-step workflow orchestration
-│   │   ├── TaskPlanner.ts         # AI-powered task planning
-│   │   ├── TaskExecutor.ts        # Sequential execution engine
-│   │   └── WorkflowContext.ts     # Execution state management
-│   ├── payment/
-│   │   ├── EscrowManager.ts       # SAP escrow operations
-│   │   ├── X402Facilitator.ts     # AceDataCloud x402 client
-│   │   ├── PaymentRouter.ts       # Payment method selection
-│   │   └── SettlementBatch.ts     # Batch settlement optimization
-│   ├── memory/
-│   │   ├── VaultManager.ts        # SAP encrypted vault
-│   │   ├── LedgerManager.ts       # SAP ring-buffer ledger
-│   │   └── SessionManager.ts      # Session lifecycle
-│   ├── attestation/
-│   │   ├── AttestationService.ts  # Create & manage attestations
-│   │   ├── ReputationUpdater.ts   # Update agent reputation
-│   │   └── FeedbackCollector.ts   # Collect agent feedback
-│   ├── types/
-│   │   ├── index.ts               # Common type definitions
-│   │   ├── sap.ts                 # SAP protocol types
-│   │   ├── acedata.ts             # AceDataCloud API types
-│   │   └── payment.ts             # Payment & escrow types
-│   ├── utils/
-│   │   ├── logger.ts              # Winston logger
-│   │   ├── retry.ts               # Retry logic with backoff
-│   │   ├── cost-estimator.ts      # Service cost estimation
-│   │   └── helpers.ts             # Utility functions
-│   └── index.ts                   # Main entry point
-├── scripts/
-│   ├── register-agent.ts          # One-time agent registration
-│   ├── test-workflow.ts           # Workflow demo
-│   └── batch-settlement.ts        # Batch payment demo
-├── demo.ts                        # Full demonstration
-├── .env.example                   # Environment template
-├── .env                           # Local secrets (gitignored)
-├── tsconfig.json                  # TypeScript configuration
-├── esbuild.config.mjs             # Build configuration
-├── README.md                      # This file
-├── LICENSE                        # MIT License
-└── AGENTS.md                      # Kilo agent instructions
-```
-
-## 🚦 Getting Started
-
-### Choose Your Mode
-
-**A) Real Mode (Win Bounty)** — Requires 3 free API keys
-```bash
-# 1. Get keys (10 min, all free):
-#    - OOBE: https://www.oobeprotocol.ai → API Keys
-#    - Solana: Phantom wallet → Export Private Key
-#    - AceDataCloud: https://platform.acedata.cloud → API Tokens
-
-# 2. Install & configure
-npm ci
+npm install
 cp .env.example .env
-# Edit .env, add your 3 keys
-
-# 3. Register & run
-npm run register    # Creates on-chain agent identity
-npm run demo        # Watch autonomous agent work
-```
-
-**B) Simulation Mode (No Keys)** — Test without keys
-```bash
-# 1. Install
-npm ci
-
-# 2. Enable simulation
-cp .env.example .env
-# Add: SIMULATION=true
-
-# 3. Run demo
-npm run demo
-# → Shows workflow logic with mock data
-# → NO real transactions (cannot win bounty)
-```
-
-**C) Devnet Mode** — Test with real code, free SOL
-```bash
-# In .env:
-SOLANA_NETWORK=devnet
-# Get free devnet SOL: https://faucet.solana.com
-# Still need OOBE + AceDataCloud keys (free)
-```
-
----
-
-### Prerequisites
-
-**For Real/Devnet Mode:**
-- Node.js 18+
-- **OOBE Protocol API Key** (free) — [Get here](https://www.oobeprotocol.ai)
-- **Solana Wallet** with private key (funded with ~0.05 SOL for mainnet, free from faucet for devnet)
-- **AceDataCloud API Token** (free tier) — [Get here](https://platform.acedata.cloud)
-
-**For Simulation Mode:**
-- Node.js 18+ only (no keys needed)
-
-### Environment Variables
-
-```bash
-# Required
-OOBE_API_KEY=sk_your_oobe_api_key_here
-SOLANA_PRIVATE_KEY=your_wallet_private_key_base58
-ACEDATA_API_TOKEN=your_acedatacloud_api_token
-ACEDATA_X402_NETWORK=solana  # or 'base' for EVM
-
-# Optional
-LOG_LEVEL=info
-SAP_RPC_URL=https://us-1-mainnet.oobeprotocol.ai?api_key=YOUR_KEY
-ESCROW_INITIAL_DEPOSIT=1000000  # lamports (0.001 SOL)
-MAX_WORKFLOW_STEPS=10
-```
-
-### Register Your Agent on SAP
-
-```bash
-npm run register
-```
-
-This creates your agent's on-chain identity on the Synapse Agent Protocol mainnet.
-
-### Run the Demo
-
-```bash
-npm run demo
-```
-
-The demo executes a complete autonomous workflow:
-1. Request: "Research Solana DeFi and create an illustrative image"
-2. Discovers tools via SAP
-3. Calls Synapse Sentinel for validation
-4. Executes AceDataCloud services:
-   - Google SERP search for latest DeFi news
-   - OpenAI chat for research summary
-   - Flux image generation
-5. Settles all payments via x402
-6. Generates attestations
-7. Logs complete transaction history
-
-## 🎬 Demo Workflow
-
-```
-$ npm run demo
-
-[2026-05-14 12:00:00] INFO AceAutoAgent starting autonomous workflow
-[2026-05-14 12:00:00] INFO Task: "Research Solana DeFi and create an illustrative image"
-
-Step 1/5: Tool Discovery
-  ✓ Found 47 available agents
-  ✓ Discovered Synapse Sentinel (Ccr2yK3...)
-  ✓ Found 12 relevant tools
-
-Step 2/5: Payment Setup
-  ✓ Created SOL escrow: 8x9kLmN...
-  ✓ Deposited 0.001 SOL
-  ✓ X402 payment facilitator configured
-
-Step 3/5: Content Research
-  ✓ Google SERP: "Solana DeFi 2026 trends" (x402 paid: $0.0021)
-  ✓ OpenAI GPT-4o: Generated research summary (x402 paid: $0.0035)
-  ✓ Verified by Synapse Sentinel ✓
-
-Step 4/5: Image Creation
-  ✓ Flux generated: "Solana DeFi ecosystem illustration" (x402 paid: $0.0150)
-
-Step 5/5: Settlement & Attestation
-  ✓ Batch settled 3 x402 payments
-  ✓ Created attestation with Synapse Sentinel
-  ✓ Updated agent reputation: +5 score
-
-✨ Workflow completed in 47.3s
-💸 Total cost: $0.0206 (paid on-chain)
-📊 Payment volume generated: $0.0206
-🎯 Category: Ace Data Cloud Usage
-```
-
-## 🔄 How It Works
-
-### 1. Agent Registration (SAP)
-
-```typescript
-const agent = await sapService.registerAgent({
-  name: "AceAutoAgent",
-  description: "Autonomous content generation agent using AceDataCloud",
-  capabilities: [
-    { id: "openai:chat", protocolId: "openai", version: "1.0" },
-    { id: "flux:image", protocolId: "flux", version: "1.0" },
-    { id: "serp:search", protocolId: "serp", version: "1.0" },
-    { id: "sentinel:verify", protocolId: "sentinel", version: "1.0" },
-  ],
-  pricing: [
-    {
-      tierId: "standard",
-      pricePerCall: 1000, // 0.000001 SOL per call
-      rateLimit: 60,
-    },
-  ],
-  protocols: ["x402", "A2A", "openai", "flux", "serp"],
-});
-```
-
-### 2. Tool Discovery
-
-The agent queries the SAP network to find available tools:
-
-```typescript
-const agents = await discovery.findAgentsByProtocol("sentinel");
-const sentinelTools = await discovery.getAgentTools(sentinelAgentPda);
-```
-
-### 3. Autonomous Execution
-
-The workflow engine plans and executes multi-service tasks:
-
-```typescript
-const workflow = await planner.plan("Create marketing content for Solana DeFi");
-
-// Workflow steps:
-// 1. Search web for latest Solana DeFi news (SERP API)
-// 2. Generate content summary (OpenAI chat)
-// 3. Create matching image (Flux)
-// 4. Validate with Synapse Sentinel
-// 5. Compile final output
-```
-
-### 4. x402 Payments
-
-Each API call automatically handles payments:
-
-```typescript
-// AceDataCloud with x402
-const result = await aceService.chat.completions.create({
-  model: "gpt-4o-mini",
-  messages: [...],
-  // x402 payment handled automatically
-});
-
-// SAP escrow settlement
-await escrowManager.settleCalls(depositor, 1, serviceHash);
-```
-
-### 5. Attestations
-
-The agent generates verifiable attestations of completed work:
-
-```typescript
-const attestation = await attestationService.createAttestation({
-  attestationType: 1, // Task completion
-  metadataHash: await hashTaskResult(result),
-  expiresAt: Math.floor(Date.now() / 1000) + 86400 * 30, // 30 days
-});
-```
-
-## 🏆 Bounty Eligibility
-
-### ✅ General Payment Volume Category Requirements
-- [x] Registered on Synapse Agent Protocol (SAP) mainnet
-- [x] Complete automated workflow (trigger → execution → payment)
-- [x] Uses escrow for payments with Synapse RPC
-- [x] Incorporates AI capability (OpenAI chat, Flux image gen)
-- [x] Uses Synapse Sentinel agent services
-- [x] Generates real payment volume through agent activity
-
-### ✅ Ace Data Cloud Usage Category Requirements
-- [x] Registered on SAP mainnet
-- [x] Complete automated workflow
-- [x] AceDataCloud account with API access
-- [x] Uses x402 with AceDataCloud's facilitator via Synapse RPC
-- [x] Uses **3+ distinct Ace Data Cloud services**:
-  - **OpenAI API** (chat completions)
-  - **Flux API** (image generation)
-  - **Google SERP API** (web search)
-  - (Bonus: SERP, Suno, etc.)
-- [x] Fully autonomous execution
-
-## 📊 Tracking & Verification
-
-The agent logs all activity for bounty verification:
-
-```json
-{
-  "agentPda": "Agent...PDA",
-  "bountyCategory": "ace_data_cloud_usage",
-  "sapEscrowVolume": 0.0032,
-  "acedataPaymentVolume": 0.0231,
-  "servicesUsed": ["openai:chat", "flux:image", "serp:web"],
-  "sentinelAttestations": 3,
-  "workflowCount": 47,
-  "transactionHistory": [
-    {
-      "timestamp": "2026-05-14T12:00:00Z",
-      "service": "openai.chat.completions",
-      "paymentMethod": "x402-solana",
-      "costUsd": 0.0035,
-      "txHash": "5eykt4...",
-      "settled": true
-    }
-  ]
-}
-```
-
-All transactions are verifiable on:
-- **Solana Explorer**: [solscan.io](https://solscan.io)
-- **Synapse Explorer**: [explorer.oobeprotocol.ai](https://explorer.oobeprotocol.ai)
-
-## 🖼️ Neumorphic Dashboard
-
-A modern, neumorphic web dashboard visualizes the agent's capabilities and includes an embedded demo recording.
-
-🌐 **View Live (GitHub Pages):** https://boozelee.github.io/synapse-ace-agent/
-
-Or open locally:
-```bash
-# From the project root:
-open dashboard/index.html
-```
-
-**Features of the dashboard:**
-- Soft neumorphic UI with subtle shadows and smooth interactions
-- Embedded asciinema player showing the full demo workflow
-- Lay-flat design with glassmorphism accents
-- Responsive layout for mobile and desktop
-
----
-
-## 🛠️ Development
-
-### Build
-
-```bash
+npm run typecheck
 npm run build
 ```
 
-### Run in dev mode
+Useful commands:
 
-```bash
-npm run dev
-```
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Run the agent entry point with `tsx` |
+| `npm run build` | Compile and bundle to `dist/index.js` |
+| `npm run typecheck` | Run `tsc --noEmit` |
+| `npm run lint` | Run ESLint over TypeScript sources |
+| `npm run demo:sim` | Run the simulation mode demo |
+| `npm run register` | Register the agent when live credentials are configured |
+| `npm run ecosystem` | Print the local ecosystem registry |
 
-### Lint & Type Check
+## Environment
+
+Create `.env` from `.env.example` and provide only the credentials needed for the mode you are running. Keep private keys and API tokens out of git.
+
+Typical live-mode values include:
+
+| Variable | Purpose |
+| --- | --- |
+| `ACE_API_KEY` | Ace Data Cloud API access |
+| `SYNAPSE_RPC_URL` | Synapse/Solana RPC endpoint |
+| `SOLANA_KEYPAIR_PATH` | Local path to the agent wallet keypair |
+| `SIMULATION` | Set to `true` for non-funded demo execution |
+
+## Validation
+
+Run before merging changes:
 
 ```bash
 npm run typecheck
-npm run lint
+npm run build
 ```
 
-### Test Workflow
+Run simulation mode before any live payment or registration workflow:
 
 ```bash
-npm run test-workflow
+npm run demo:sim
 ```
 
-### Update Agent Manifest
+## Status
 
-```bash
-npm run register -- --update
-```
-
-## 📝 Submission Requirements
-
-To submit for the bounty:
-
-1. **Post on X (Twitter)**
-   - Demo video showing the agent in action
-   - Tag @OOBEonSol and @AceDataCloud
-   - Explain what the agent does and which category you're entering
-   - Include GitHub repository link
-
-2. **Demo Must Show**
-   - Tool discovery via SAP
-   - Execution of AceDataCloud APIs
-   - Payment handling with x402
-   - Fully autonomous execution (no manual steps)
-
-This repository includes:
-- ✅ Complete source code
-- ✅ Setup instructions
-- ✅ Working demo (`npm run demo`)
-- ✅ Transaction logs for verification
-- ✅ Agent registered on SAP mainnet
-
-## 🔐 Security Notes
-
-- Never commit `.env` or private keys
-- Use OOBE Protocol RPC with your API key
-- Store Solana private keys securely (hardware wallet recommended for production)
-- Monitor escrow balances and replenish as needed
-
-## 📚 Resources
-
-- [Synapse Agent Protocol Docs](https://explorer.oobeprotocol.ai/docs)
-- [AceDataCloud API Docs](https://docs.acedata.cloud)
-- [x402 Payment Protocol](https://github.com/AceDataCloud/X402Client)
-- [SAP SDK Reference](https://github.com/OOBE-PROTOCOL/synapse-sap-sdk)
-- [Synapse Sentinel Agent](https://explorer.oobeprotocol.ai/agents/Ccr2yK3hLALU4p8oNRqrh4dGuvPJTth5KCLMio8cE1ph)
-
-## 🤝 Contributing
-
-This is a bounty submission. PRs welcome post-submission.
-
-## 📄 License
-
-MIT — See LICENSE file for details.
-
----
-
-**Built for the OOBE Protocol × Ace Data Cloud Joint Bounty**  
-_Deadline: [Check bounty page for current deadline]_
+Portfolio agent prototype. Live registration and payment execution require configured credentials and funded wallets; the public repository intentionally excludes secrets and private operational data.
