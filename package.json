@@ -45,7 +45,7 @@
     "@acedatacloud/x402-client": "^2026.507.2",
     "@solana/web3.js": "^1.90.0",
     "@coral-xyz/anchor": "^0.30.0",
-    "zod": "^3.22.0",
+    "zod": "^4.4.3",
     "winston": "^3.11.0",
     "dotenv": "^16.4.0",
     "big-integer": "^1.6.51"
