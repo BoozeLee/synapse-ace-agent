@@ -47,7 +47,7 @@
     "@coral-xyz/anchor": "^0.30.0",
     "zod": "^3.22.0",
     "winston": "^3.11.0",
-    "dotenv": "^16.4.0",
+    "dotenv": "^17.4.2",
     "big-integer": "^1.6.51"
   },
   "devDependencies": {
