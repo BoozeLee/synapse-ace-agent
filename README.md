@@ -1,88 +1,77 @@
-# Synapse ACE Agent
+# synapse-ace-agent
 
-An autonomous TypeScript agent prototype for composing Synapse Agent Protocol discovery, Ace Data Cloud services, x402 payments, and Solana-oriented workflow orchestration.
+Autonomous TypeScript agent prototype with multi-service orchestration, x402 payments, and Solana workflow integration.
 
-The repository is public as a portfolio project: it shows typed service boundaries, payment-aware agent design, workflow execution, and a small command-line control surface for experiments.
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
+![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=node.js)
+![Solana](https://img.shields.io/badge/Solana-Web3.js-9945ff?logo=solana)
+![Anchor](https://img.shields.io/badge/Anchor-Framework-000?logo=anchor)
 
-## What It Demonstrates
+## Overview
 
-- Multi-service AI agent orchestration in TypeScript.
-- Synapse Agent Protocol discovery and registration flows.
-- Ace Data Cloud service integration with x402 payment concepts.
-- Solana SDK usage for payment and agent workflows.
-- Typed configuration, logging, and command scripts for repeatable demos.
+synapse-ace-agent is an autonomous agent system built in TypeScript that orchestrates multi-service workflows. It combines the Synapse Agent Protocol for discovery, Ace Data Cloud for data services, x402 payments for transaction settlement, and Solana-oriented workflow orchestration.
 
-## Stack
+## Key Features
 
-- **Runtime:** Node.js 20+, TypeScript
-- **Execution:** `tsx`, `esbuild`
-- **Agent services:** Synapse SDKs, Ace Data Cloud SDK, x402 client
-- **Blockchain:** Solana Web3.js, Anchor
-- **Validation:** TypeScript compiler, ESLint
+- **Multi-Service Discovery**: Agent Protocol-compatible service discovery and routing
+- **Payment-Aware Workflows**: x402 payment protocol integration for automated transactions
+- **Solana Integration**: Wallet management, transaction signing, and on-chain operations
+- **Typed Service Boundaries**: Full TypeScript type safety across agent boundaries
+- **CLI Demos**: Reproducible command-line demonstrations of agent workflows
 
-## Project Structure
+## Tech Stack
 
-```text
-src/
-├── agent/                 # Agent registry and autonomous agent entry points
-├── attestation/           # Attestation service
-├── ecosystem/             # Project registry and ecosystem metadata
-├── scripts/               # CLI helpers and demos
-├── services/              # SAP, Ace Data Cloud, payment, tool discovery services
-├── types/                 # Shared TypeScript types
-├── utils/                 # Config and logging helpers
-└── workflow/              # Workflow engine
-```
+- **Language**: TypeScript 5, Node.js 20+
+- **Agent Framework**: Custom orchestration with typed message passing
+- **Blockchain**: Solana Web3.js, Anchor framework
+- **Payments**: x402 payment protocol
+- **Data**: Ace Data Cloud integration
+- **Tooling**: ESLint, Prettier, ts-node for CLI demos
 
-## Local Development
+## Quick Start
 
 ```bash
-npm install
-cp .env.example .env
-npm run typecheck
-npm run build
+# Clone the repository
+git clone https://github.com/BoozeLee/synapse-ace-agent.git
+cd synapse-ace-agent
+
+# Install dependencies
+pnpm install
+
+# Run the demo CLI
+pnpm demo
 ```
 
-Useful commands:
+## Architecture
 
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Run the agent entry point with `tsx` |
-| `npm run build` | Compile and bundle to `dist/index.js` |
-| `npm run typecheck` | Run `tsc --noEmit` |
-| `npm run lint` | Run ESLint over TypeScript sources |
-| `npm run demo:sim` | Run the simulation mode demo |
-| `npm run register` | Register the agent when live credentials are configured |
-| `npm run ecosystem` | Print the local ecosystem registry |
-
-## Environment
-
-Create `.env` from `.env.example` and provide only the credentials needed for the mode you are running. Keep private keys and API tokens out of git.
-
-Typical live-mode values include:
-
-| Variable | Purpose |
-| --- | --- |
-| `ACE_API_KEY` | Ace Data Cloud API access |
-| `SYNAPSE_RPC_URL` | Synapse/Solana RPC endpoint |
-| `SOLANA_KEYPAIR_PATH` | Local path to the agent wallet keypair |
-| `SIMULATION` | Set to `true` for non-funded demo execution |
-
-## Validation
-
-Run before merging changes:
-
-```bash
-npm run typecheck
-npm run build
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Discovery      │────▶│  Orchestrator   │────▶│  Service        │
+│  Agent          │     │  Agent          │     │  Agents         │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+        │                       │                       │
+        ▼                       ▼                       ▼
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Service        │     │  Payment        │     │  Solana         │
+│  Registry       │     │  Handler        │     │  Wallet         │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
 ```
 
-Run simulation mode before any live payment or registration workflow:
+## Use Cases
 
-```bash
-npm run demo:sim
-```
+- Automated service composition and discovery
+- Payment-gated API access and microtransactions
+- Multi-chain workflow orchestration
+- Agent-to-agent communication patterns
 
-## Status
+## Contributing
 
-Portfolio agent prototype. Live registration and payment execution require configured credentials and funded wallets; the public repository intentionally excludes secrets and private operational data.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
+
+## Contact
+
+**Kiliaan Vanvoorden** — [bakerstreetbandit@zohomail.eu](mailto:bakerstreetbandit@zohomail.eu)
