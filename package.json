@@ -42,7 +42,7 @@
     "@oobe-protocol-labs/synapse-client-sdk": "^2.0.6",
     "@oobe-protocol-labs/synapse-sap-sdk": "^0.17.0",
     "@acedatacloud/sdk": "^2026.504.2",
-    "@acedatacloud/x402-client": "^2026.507.2",
+    "@acedatacloud/x402-client": "^2026.804.0",
     "@solana/web3.js": "^1.90.0",
     "@coral-xyz/anchor": "^0.30.0",
     "zod": "^3.22.0",
